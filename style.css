@@ -1,0 +1,44 @@
+h1{
+    background-color: rgb(215, 195, 195);
+    color: rgb(244, 38, 114);
+    margin-top:0;
+    padding: 15px;
+    animation-name: ANIME1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+canvas{
+    border: 5px double black;
+    margin-top: 50px;
+    box-shadow:20px -20px 25px pink;
+    animation-name: ANIME2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes ANIME1{
+    from{
+        box-shadow:20px -20px 25px rgb(213, 131, 144);
+    }
+    to{
+        box-shadow:20px 20px 25px rgb(57, 8, 141);
+    }
+}
+@keyframes ANIME2{
+    0%{
+        box-shadow:20px -20px 25px rgb(213, 131, 144);
+    }
+    25%{
+        box-shadow:-20px 20px 25px rgb(57, 8, 141);
+    }
+    50%{
+        box-shadow:20px -20px 25px rgb(30, 194, 117);
+    }
+    75%{
+        box-shadow:-20px -20px 25px rgb(90, 237, 53);
+    }
+    100%{
+        box-shadow:20px 20px 25px rgb(235, 201, 49);
+    }
+}
